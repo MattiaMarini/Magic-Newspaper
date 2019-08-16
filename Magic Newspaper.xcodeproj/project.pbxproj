@@ -13,6 +13,8 @@
 		49E0D8E62306B38C00A73ACD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E0D8E42306B38C00A73ACD /* Main.storyboard */; };
 		49E0D8E82306B38D00A73ACD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49E0D8E72306B38D00A73ACD /* Assets.xcassets */; };
 		49E0D8EB2306B38D00A73ACD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49E0D8E92306B38D00A73ACD /* LaunchScreen.storyboard */; };
+		49E0D8F42306B3DD00A73ACD /* dumbledore.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 49E0D8F22306B3DD00A73ACD /* dumbledore.mp4 */; };
+		49E0D8F52306B3DD00A73ACD /* harryPotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 49E0D8F32306B3DD00A73ACD /* harryPotter.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		49E0D8E72306B38D00A73ACD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		49E0D8EA2306B38D00A73ACD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		49E0D8EC2306B38D00A73ACD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49E0D8F22306B3DD00A73ACD /* dumbledore.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = dumbledore.mp4; sourceTree = "<group>"; };
+		49E0D8F32306B3DD00A73ACD /* harryPotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = harryPotter.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		49E0D8DD2306B38C00A73ACD /* Magic Newspaper */ = {
 			isa = PBXGroup;
 			children = (
+				49E0D8F22306B3DD00A73ACD /* dumbledore.mp4 */,
+				49E0D8F32306B3DD00A73ACD /* harryPotter.mp4 */,
 				49E0D8DE2306B38C00A73ACD /* AppDelegate.swift */,
 				49E0D8E02306B38C00A73ACD /* art.scnassets */,
 				49E0D8E22306B38C00A73ACD /* ViewController.swift */,
@@ -126,6 +132,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				49E0D8E12306B38C00A73ACD /* art.scnassets in Resources */,
+				49E0D8F42306B3DD00A73ACD /* dumbledore.mp4 in Resources */,
+				49E0D8F52306B3DD00A73ACD /* harryPotter.mp4 in Resources */,
 				49E0D8EB2306B38D00A73ACD /* LaunchScreen.storyboard in Resources */,
 				49E0D8E82306B38D00A73ACD /* Assets.xcassets in Resources */,
 				49E0D8E62306B38C00A73ACD /* Main.storyboard in Resources */,
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95QQ2QGK9S;
 				INFOPLIST_FILE = "Magic Newspaper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 95QQ2QGK9S;
 				INFOPLIST_FILE = "Magic Newspaper/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
